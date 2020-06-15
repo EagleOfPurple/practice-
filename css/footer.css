@@ -1,0 +1,72 @@
+.footer {
+     background: linear-gradient(to right, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url(../img/footer-bg-photo.jpg) center / cover no-repeat;   
+    color: #fff;
+}
+
+.footer-section {
+    padding: 120px 0 100px;
+}
+
+.address {
+    display: flex;
+    justify-content: space-around;
+}
+
+.address__item {
+    width: 270px;
+    text-align: center;
+    padding-top: 140px;
+    margin-bottom: 75px;
+    font-style: normal;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1030px;
+    margin: 0 auto;
+}
+
+.contact-form__input {
+    width: 49%;
+    height: 80px;
+}
+
+.contact-form__textarea {
+    width: 100%;
+    margin: 40px 0;
+}
+
+.contact-form__input,
+.contact-form__textarea,
+.contact-form__btn {
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.contact-form__input::placeholder,
+.contact-form__textarea::placeholder {
+    font-size: 20px;
+}
+
+.btn-cover {
+    width: 100%;
+    text-align: right;
+}
+
+.contact-form__btn {
+    width: 200px;
+    height: 70px;
+    display: inline;
+}
+
+.footer__text {
+    height: 65px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 700;
+}

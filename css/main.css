@@ -1,0 +1,148 @@
+.section {
+    padding: 120px 0;
+}
+
+.section:nth-child(1),
+.section:nth-child(3),
+.section:nth-child(5) {
+    background-color: #fff;
+}
+
+.section:nth-child(2),
+.section:nth-child(6) {
+    background-color: #e4fdf9;
+}
+
+.section:nth-child(4) {
+    background-color: #f0f1f1;
+}
+
+.section__heading {
+    text-align: center;
+    font-size: 30px;
+}
+
+.section__heading-detalies {
+    max-width: 600px;
+    text-align: center;
+    font-size: 15px;
+    color: #7e7e7e;
+    margin: 35px auto 130px;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #363636;
+}
+
+.info-section__item {
+    width: 370px;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.info-section__heading {
+    width: 180px;
+    margin: 0 auto;
+    padding-top: 100px;
+    font-size: 20px;
+}
+
+.info-section__det {
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+.section-services__item {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    min-height: 438px;
+}
+
+.section-pricing__item {
+    height: 670px;
+    padding-top: 45px;
+    padding-bottom: 60px;
+    background: linear-gradient(175deg, #3949ab 30%, #fff 30.5%);
+}
+
+.section-services__btn {
+    margin-top: 40px;
+}
+
+.section-pricing__btn {
+    margin-top: 60px;
+}
+
+.pricing-cards__heading,
+.pricing-cards__price {
+    color: #fff;
+}
+
+.pricing-cards__price {
+    margin-top: 40px;
+}
+
+.pricing-cards__dollar-sgn {
+    font-size: 25px;
+}
+
+.pricing-cards__price-nbr {
+    font-size: 35px;
+}
+
+.pricing-cards__period {
+    font-size: 17px;
+}
+
+.pricing-cards__det-list {
+    margin-top: 110px;
+    color: #868686;
+}
+
+.pricing-cards__det-items {
+    height: 40px;
+    width: 170px;
+    margin: 20px auto 0;
+    border-bottom: 1px solid #b5b5b5;
+}
+
+.blog-article {
+    display: flex;
+}
+
+.blog-article__illustration {
+    width: 67%;
+}
+
+.illustration-one,
+.illustration-three {
+    order: -1;
+    margin-right: 25px;
+}
+
+.blog-article__heading {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.blog-article__main {
+    padding: 60px 0;
+}
+
+.blog-article__time,
+.blog-article__topic {
+    padding-left: 30px;
+    font-size: 17px;
+}
+
+.blog-article__text {
+    font-size: 15px;
+    margin-top: 30px;
+    color: #7b7b7b;
+    width: 80%;
+}
