@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Web Development Project</title>
+
+    <link rel="preload" href="fonts/open-sans-v17-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
@@ -46,9 +49,11 @@
 
                 <div class="header__quicknav">
                     <a href="#servicing" class="header__service-link">OUR SERVICES</a>
+                    
                     <a href="#contact-us" class="header__hire-link">HIRE IS NOW</a>
-                </div>
-                <a href="#about" class="header__further-link" aria-label="Go to main information"></a>
+                    
+                    <a href="#about" class="header__further-link" aria-label="Go to main information"></a>
+                </div>  
             </div>
         </section>
     </header>
@@ -60,22 +65,22 @@
 
                 <p class="section__heading-detalies">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis suscipit animi maiores. Sequi, quos? Omnis suscipit animi maiores. Sequi, quos?</p>
 
-                <div class="section__info info-section">
-                    <div class="info-section__item">
+                <ul class="section__info info-section">
+                    <li class="info-section__item">
                         <h3 class="info-section__heading">Awesome Icons</h3>
                         <p class="info-section__det">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit architecto natus, sapiente earum facilis.</p>
-                    </div>
+                    </li>
 
-                    <div class="info-section__item">
+                    <li class="info-section__item">
                         <h3 class="info-section__heading">One Page</h3>
                         <p class="info-section__det">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit architecto natus, sapiente earum facilis.</p>
-                    </div>
+                    </li>
 
-                    <div class="info-section__item">
+                    <li class="info-section__item">
                         <h3 class="info-section__heading">Fully Responsive</h3>
                         <p class="info-section__det">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit architecto natus, sapiente earum facilis.</p>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
         </section>
 
@@ -85,49 +90,61 @@
 
                 <p class="section__heading-detalies">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis suscipit animi maiores. Sequi, quos? Omnis suscipit animi maiores. Sequi, quos?</p>
 
-                <div class="section__info section__servi info-section">
-                    <article class="info-section__item section-services__item">
-                        <h3 class="info-section__heading">Research</h3>
-                        <p class="info-section__det">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
+                <ul class="section__info section__servi info-section">
+                    <li>
+                        <article class="info-section__item section-services__item">
+                            <h3 class="info-section__heading">Research</h3>
+                            <p class="info-section__det">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
 
-                        <button class="btn section-services__btn" type="button">READ MORE</button>
-                    </article>
+                            <button class="btn section-services__btn" type="button">READ MORE</button>
+                        </article>
+                    </li>
 
-                    <article class="info-section__item section-services__item">
-                        <h3 class="info-section__heading">Portfolio</h3>
-                        <p class="info-section__det">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
+                    <li>
+                        <article class="info-section__item section-services__item">
+                            <h3 class="info-section__heading">Portfolio</h3>
+                            <p class="info-section__det">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
 
-                        <button class="btn section-services__btn" type="button">READ MORE</button>
-                    </article>
+                            <button class="btn section-services__btn" type="button">READ MORE</button>
+                        </article>
+                    </li>
 
-                    <article class="info-section__item section-services__item">
-                        <h3 class="info-section__heading">Support</h3>
-                        <p class="info-section__det">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
+                    <li>
+                        <article class="info-section__item section-services__item">
+                            <h3 class="info-section__heading">Support</h3>
+                            <p class="info-section__det">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
 
-                        <button class="btn section-services__btn" type="button">READ MORE</button>
-                    </article>
+                            <button class="btn section-services__btn" type="button">READ MORE</button>
+                        </article>
+                    </li>
 
-                    <article class="info-section__item section-services__item">
-                        <h3 class="info-section__heading">Documentation</h3>
-                        <p class="info-section__det">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
+                    <li>
+                        <article class="info-section__item section-services__item">
+                            <h3 class="info-section__heading">Documentation</h3>
+                            <p class="info-section__det">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
 
-                        <button class="btn section-services__btn" type="button">READ MORE</button>
-                    </article>
+                            <button class="btn section-services__btn" type="button">READ MORE</button>
+                        </article>
+                    </li>
 
-                    <article class="info-section__item section-services__item">
-                        <h3 class="info-section__heading">Development</h3>
-                        <p class="info-section__det">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
+                    <li>
+                        <article class="info-section__item section-services__item">
+                            <h3 class="info-section__heading">Development</h3>
+                            <p class="info-section__det">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
 
-                        <button class="btn section-services__btn" type="button">READ MORE</button>
-                    </article>
+                            <button class="btn section-services__btn" type="button">READ MORE</button>
+                        </article>
+                    </li>
 
-                    <article class="info-section__item section-services__item">
-                        <h3 class="info-section__heading">Design</h3>
-                        <p class="info-section__det">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
+                    <li>
+                        <article class="info-section__item section-services__item">
+                            <h3 class="info-section__heading">Design</h3>
+                            <p class="info-section__det">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
 
-                        <button class="btn section-services__btn" type="button">READ MORE</button>
-                    </article>
-                </div>
+                            <button class="btn section-services__btn" type="button">READ MORE</button>
+                        </article>
+                    </li>
+                </ul>
             </div>
         </section>
 
@@ -149,52 +166,58 @@
 
                 <p class="section__heading-detalies">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis suscipit animi maiores. Sequi, quos? Omnis suscipit animi maiores. Sequi, quos?</p>
 
-                <div class="section__info info-section pricing-cards">
-                    <section class="info-section__item section-pricing__item">
-                        <h3 class="pricing-cards__heading">Free Trail</h3>
+                <ul class="section__info info-section pricing-cards">
+                    <li>
+                        <section class="info-section__item section-pricing__item">
+                            <h3 class="pricing-cards__heading">Free Trail</h3>
 
-                        <p class="pricing-cards__price"><sup class="pricing-cards__dollar-sgn">$</sup><span class="pricing-cards__price-nbr">00</span> <span class="pricing-cards__period">per month</span></p>
+                            <p class="pricing-cards__price"><sup class="pricing-cards__dollar-sgn">$</sup><span class="pricing-cards__price-nbr">00</span> <span class="pricing-cards__period">per month</span></p>
 
-                        <ul class="pricing-cards__det-list">
-                            <li class="pricing-cards__det-items">30 Free Trail</li>
-                            <li class="pricing-cards__det-items">5 Free Projects</li>
-                            <li class="pricing-cards__det-items">PHP'S Enabled</li>
-                            <li class="pricing-cards__det-items">24/7 Supports</li>
-                        </ul>
+                            <ul class="pricing-cards__det-list">
+                                <li class="pricing-cards__det-items">30 Free Trail</li>
+                                <li class="pricing-cards__det-items">5 Free Projects</li>
+                                <li class="pricing-cards__det-items">PHP'S Enabled</li>
+                                <li class="pricing-cards__det-items">24/7 Supports</li>
+                            </ul>
 
-                        <button class="btn section-pricing__btn" type="button">ORDER NOW</button>
-                    </section>
+                            <button class="btn section-pricing__btn" type="button">ORDER NOW</button>
+                        </section>
+                    </li>
 
-                    <section class="info-section__item section-pricing__item">
-                        <h3 class="pricing-cards__heading">Basic</h3>
+                    <li>
+                        <section class="info-section__item section-pricing__item">
+                            <h3 class="pricing-cards__heading">Basic</h3>
 
-                        <p class="pricing-cards__price"><sup class="pricing-cards__dollar-sgn">$</sup><span class="pricing-cards__price-nbr">50</span> <span class="pricing-cards__period">per month</span></p>
+                            <p class="pricing-cards__price"><sup class="pricing-cards__dollar-sgn">$</sup><span class="pricing-cards__price-nbr">50</span> <span class="pricing-cards__period">per month</span></p>
 
-                        <ul class="pricing-cards__det-list">
-                            <li class="pricing-cards__det-items">30 Free Trail</li>
-                            <li class="pricing-cards__det-items">5 Free Projects</li>
-                            <li class="pricing-cards__det-items">PHP'S Enabled</li>
-                            <li class="pricing-cards__det-items">24/7 Supports</li>
-                        </ul>
+                            <ul class="pricing-cards__det-list">
+                                <li class="pricing-cards__det-items">30 Free Trail</li>
+                                <li class="pricing-cards__det-items">5 Free Projects</li>
+                                <li class="pricing-cards__det-items">PHP'S Enabled</li>
+                                <li class="pricing-cards__det-items">24/7 Supports</li>
+                            </ul>
 
-                        <button class="btn section-pricing__btn" type="button">ORDER NOW</button>
-                    </section>
+                            <button class="btn section-pricing__btn" type="button">ORDER NOW</button>
+                        </section>
+                    </li>
 
-                    <section class="info-section__item section-pricing__item">
-                        <h3 class="pricing-cards__heading">Ultimates</h3>
+                    <li>
+                        <section class="info-section__item section-pricing__item">
+                            <h3 class="pricing-cards__heading">Ultimates</h3>
 
-                        <p class="pricing-cards__price"><sup class="pricing-cards__dollar-sgn">$</sup><span class="pricing-cards__price-nbr">99</span> <span class="pricing-cards__period">per month</span></p>
+                            <p class="pricing-cards__price"><sup class="pricing-cards__dollar-sgn">$</sup><span class="pricing-cards__price-nbr">99</span> <span class="pricing-cards__period">per month</span></p>
 
-                        <ul class="pricing-cards__det-list">
-                            <li class="pricing-cards__det-items">30 Free Trail</li>
-                            <li class="pricing-cards__det-items">5 Free Projects</li>
-                            <li class="pricing-cards__det-items">PHP'S Enabled</li>
-                            <li class="pricing-cards__det-items">24/7 Supports</li>
-                        </ul>
+                            <ul class="pricing-cards__det-list">
+                                <li class="pricing-cards__det-items">30 Free Trail</li>
+                                <li class="pricing-cards__det-items">5 Free Projects</li>
+                                <li class="pricing-cards__det-items">PHP'S Enabled</li>
+                                <li class="pricing-cards__det-items">24/7 Supports</li>
+                            </ul>
 
-                        <button class="btn section-pricing__btn" type="button">ORDER NOW</button>
-                    </section>
-                </div>
+                            <button class="btn section-pricing__btn" type="button">ORDER NOW</button>
+                        </section>
+                    </li>
+                </ul>
             </div>
         </section>
 
@@ -221,6 +244,7 @@
                         <a href="#">
                             <h3 class="blog-article__heading">SEO Quis Vestibulum</h3>
                         </a>
+                        
                         <time class="blog-article__time">14.07.2017</time><span class="blog-article__topic">Development</span>
 
                         <p class="blog-article__text">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
