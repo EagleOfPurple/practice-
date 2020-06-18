@@ -1,5 +1,5 @@
 .footer {
-     background: linear-gradient(to right, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url(../img/footer-bg-photo.jpg) center / cover no-repeat;   
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url(../img/footer-bg-photo.jpg) center / cover no-repeat;
     color: #fff;
 }
 
@@ -15,9 +15,23 @@
 .address__item {
     width: 270px;
     text-align: center;
-    padding-top: 140px;
     margin-bottom: 75px;
+    font-size: 20px;
     font-style: normal;
+    font-weight: 400;
+}
+
+.address__icon {
+    width: 107px;
+    height: 107px;
+    border-radius: 50px;
+    background-color: #3949ab;
+    margin: 0 auto 35px;
+    font-size: 18px;
+}
+
+.address__icon::before {
+    line-height: 107px;
 }
 
 .contact-form {

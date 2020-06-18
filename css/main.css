@@ -42,10 +42,13 @@
     padding: 0 50px;
 }
 
+.info-section__icon {
+    height: 100px;
+}
+
 .info-section__heading {
     width: 180px;
     margin: 0 auto;
-    padding-top: 100px;
     font-size: 20px;
     font-weight: 600;
 }
