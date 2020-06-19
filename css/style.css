@@ -72,6 +72,17 @@ a:focus {
     border-bottom: 1px solid #00d9c3;
 }
 
+.link-btn:hover,
+.link-btn:focus {
+    color: inherit;
+    outline: 2px solid;
+    outline-color: inherit;
+    outline-offset: 4px;
+    transform: scale(1.01);
+    transition: all 0.1s;
+    border-color: inherit;
+}
+
 img {
     width: 100%;
     height: auto;

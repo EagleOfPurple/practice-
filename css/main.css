@@ -79,12 +79,12 @@
     padding-top: 45px;
     padding-bottom: 60px;
     background: linear-gradient(175deg, #3949ab 30%, #fff 30.5%);
-        transition: all 0.1s;
+    transition: all 0.1s;
 }
 
 .section-pricing__item:hover {
-        box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.47);
-        transition: all 0.1s;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.47);
+    transition: all 0.1s;
 }
 
 .section-services__btn {
@@ -100,6 +100,91 @@
 
 .section-services__btn:active {
     background-color: #00d9c3;
+}
+
+.gallery-nav {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.gallery-nav__link,
+.nav-link {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 30px;
+    background-color: transparent;
+    border: 1px solid #00897b;
+}
+
+.nav-link {
+    width: 230px;
+    line-height: 70px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.gallery-nav__link:hover,
+.nav-link:hover {
+    border-color: #00897b;
+    outline-color: #00897b;
+    background-color: #00897b;
+    color: #fff;
+}
+
+.gallery {
+    width: 100%;
+    margin-bottom: 130px;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.gallery__block {
+    display: flex;
+    width: 100%;
+    flex-shrink: 0;
+    height: 770px;
+    overflow-y: hidden;
+}
+
+.gallery__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.gallery_img {
+    transition: transform 0.5s;
+}
+
+.gallery_img:focus,
+.gallery_img:hover {
+    transform: scale(0.98);
+    transition: transform 0.2s;
+}
+
+.gallery_link {
+    position: relative;
+}
+
+.gallery_link:focus::before,
+.gallery_link:hover::before {
+    content: 'description';
+    color: #fff;
+    text-align: center;
+    line-height: 370px;
+    position: absolute;
+    z-index: 10;
+    display: block;
+    width: 370px;
+    height: 370px;
+    transform: scale(0.98);
+    pointer-events: none;
+    background-color: rgba(0, 0, 0, 0.55);
 }
 
 .section-pricing__btn {
@@ -189,7 +274,7 @@
 }
 
 .team-card__det {
-    font-size: 15px;  
+    font-size: 15px;
 }
 
 .blog-article {
